@@ -32,4 +32,4 @@ Python 3.9+ recommended.
 Open a terminal inside the project folder and run:
 
 ```bash
-pip install pytesseract pillow pyautogui keyboard
+pip install pyautogui pytesseract pillow numpy opencv-python keyboard requests
