@@ -14,6 +14,7 @@ You can select a detection area, test OCR results, and run it with simple hotkey
   - a region you select
 - It runs OCR on that screenshot.
 - It keeps clicking the screen center every X seconds until the target text is found.
+- Runs through your screen and with forgiving color detecton enchancer for Text that has a lot of colors higly hue colors that mostly OCR detection will ignore
 
 ---
 
@@ -24,6 +25,10 @@ You can select a detection area, test OCR results, and run it with simple hotkey
 
 ---
 
+## Limitation
+- Due to Tesseract OCR having a hard time detecting small letters with high color values, I highly recommend to Zoom In / Enlarge the the Letters if possible
+
+---
 ## Requirements
 ### 1) Python
 Python 3.9+ recommended.
